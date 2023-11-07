@@ -6,7 +6,7 @@
 /*   By: hakobaya <hakobaya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 08:01:00 by hakobaya          #+#    #+#             */
-/*   Updated: 2023/11/08 08:14:48 by hakobaya         ###   ########.fr       */
+/*   Updated: 2023/11/08 08:19:14 by hakobaya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,8 @@
 //external functions
 //open, close, read, write, malloc, free, perror, strerror, exit
 //"-lm compiler option"でコンパイルする
-//MiniLibXについて調べる
+//MiniLibXについて調べる(https://gontjarow.github.io/MiniLibX/)
+
 
 
 #endif
