@@ -6,7 +6,7 @@
 /*   By: hakobaya <hakobaya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 08:01:00 by hakobaya          #+#    #+#             */
-/*   Updated: 2023/11/08 08:19:14 by hakobaya         ###   ########.fr       */
+/*   Updated: 2023/11/10 20:22:32 by hakobaya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,17 @@
 //"-lm compiler option"でコンパイルする
 //MiniLibXについて調べる(https://gontjarow.github.io/MiniLibX/)
 
-
+typedef	struct FdF {
+	int		width;
+	int		height;
+	int		**z_matrix;
+	int		zoom;
+	int		color;
+	int		shift_x;
+	int		shift_y;
+	float	rotation;
+	void	mlx_ptr;
+	void	*win_ptr;
+}
 
 #endif
